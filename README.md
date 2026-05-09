@@ -1,5 +1,30 @@
 # baitap02
 mobile
+1. Bối cảnh và Nhu cầu
+Thực tế tại các cửa hàng cầm đồ, việc quản lý hợp đồng bằng sổ sách hoặc các phần mềm máy tính truyền thống gây ra nhiều bất tiện khi chủ cửa hàng cần kiểm tra thông tin nhanh chóng từ xa hoặc ngay tại quầy bằng thiết bị di động. Bài toán đặt ra là xây dựng một ứng dụng web hiện đại, có khả năng lưu trữ dữ liệu tập trung và tương thích tốt với các thiết bị di động.
+
+2. Mục tiêu của Hệ thống
+Quản lý thông tin định danh: Lưu trữ chính xác thông tin khách hàng, bao gồm họ tên và số CCCD để đảm bảo tính pháp lý của hợp đồng.
+
+Quản lý tài sản và tài chính: Ghi nhận chi tiết tên món hàng cầm cố và số tiền giải ngân tương ứng.
+
+Kiểm soát thời hạn: Theo dõi chặt chẽ ngày lập hợp đồng và thiết lập thời hạn thanh toán để chủ cửa hàng chủ động trong việc nhắc nợ hoặc thanh lý tài sản.
+
+Tối ưu hóa hiển thị: Chuyển đổi giao diện quản lý từ dạng bảng (Table) phức tạp sang dạng thẻ (Card) trực quan, giúp việc tra cứu trên điện thoại trở nên dễ dàng.
+
+3. Đối tượng sử dụng
+Chủ cửa hàng (Admin): Sử dụng giao diện quản trị để nhập liệu, sửa đổi thông tin và quản lý toàn bộ danh sách hợp đồng.
+
+Nhân viên kiểm tra (Viewer): Sử dụng thiết bị di động truy cập qua mạng nội bộ để xem nhanh trạng thái các hợp đồng và thời hạn thanh toán.
+
+4. Giải pháp Công nghệ đã áp dụng
+Framework: Sử dụng Django 4.2 để xây dựng logic xử lý dữ liệu và giao diện quản trị nhanh chóng.
+
+Cơ sở dữ liệu: Sử dụng MariaDB để lưu trữ dữ liệu bền vững và an toàn.
+
+Triển khai: Ứng dụng công nghệ Docker & Docker Compose để đóng gói hệ thống, giúp việc cài đặt và triển khai bài tập trở nên nhất quán trên mọi máy tính.
+
+Giao diện: Kết hợp Bootstrap để tạo thiết kế Responsive, đảm bảo ứng dụng hoạt động mượt mà trên mọi kích thước màn hình.
 tạo môi trường trên docker
 <img width="1080" height="592" alt="image" src="https://github.com/user-attachments/assets/7a39d2ef-30cf-451a-8ee7-9f81f8524ef3" />
 khởi chạy 
